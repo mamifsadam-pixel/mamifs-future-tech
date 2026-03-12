@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<title>Mamifs Future Tech</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:Inter;
+background:#0b0b0b;
+color:white;
+overflow-x:hidden;
+}
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:25px 8%;
+position:fixed;
+width:100%;
+background:rgba(0,0,0,0.6);
+backdrop-filter:blur(10px);
+}
+
+.logo{
+font-size:26px;
+font-family:Montserrat;
+color:#00eaff;
+}
+
+nav a{
+margin-left:30px;
+color:white;
+text-decoration:none;
+font-weight:500;
+}
+
+.hero{
+height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+background:linear-gradient(#000,#0f172a);
+}
+
+.hero h1{
+font-size:70px;
+font-family:Montserrat;
+margin-bottom:20px;
+}
+
+.hero p{
+font-size:20px;
+opacity:.8;
+}
+
+.hero button{
+margin-top:40px;
+padding:15px 40px;
+font-size:18px;
+border:none;
+border-radius:40px;
+background:linear-gradient(90deg,#00eaff,#7c3aed);
+color:white;
+cursor:pointer;
+}
+
+.section{
+padding:120px 10%;
+text-align:center;
+}
+
+.section h2{
+font-size:40px;
+margin-bottom:30px;
+font-family:Montserrat;
+}
+
+.services{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:40px;
+margin-top:60px;
+}
+
+.card{
+background:#111827;
+padding:40px;
+border-radius:15px;
+transition:0.4s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+box-shadow:0 20px 40px rgba(0,0,0,0.5);
+}
+
+.register{
+background:#020617;
+padding:80px;
+border-radius:20px;
+max-width:700px;
+margin:auto;
+}
+
+.register input,
+.register textarea,
+.register select{
+
+width:100%;
+padding:15px;
+margin-top:15px;
+border:none;
+border-radius:8px;
+background:#111827;
+color:white;
+
+}
+
+.register button{
+margin-top:20px;
+padding:15px 35px;
+border:none;
+border-radius:30px;
+background:#00eaff;
+font-size:16px;
+cursor:pointer;
+}
+
+footer{
+padding:40px;
+text-align:center;
+background:#000;
+margin-top:100px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">Mamifs Future Tech</div>
+
+<nav>
+<a href="#">Home</a>
+<a href="#about">About</a>
+<a href="#services">Services</a>
+<a href="#register">Register</a>
+<a href="#contact">Contact</a>
+</nav>
+
+</header>
+
+<section class="hero">
+
+<h1>The Future of Technology</h1>
+
+<p>Innovation • AI • Smart Digital Systems</p>
+
+<button>Explore Mamifs</button>
+
+</section>
+
+
+<section class="section" id="about">
+
+<h2>About Mamifs Future Tech</h2>
+
+<p>
+Mamifs Future Tech is a next-generation technology company focused on
+innovation, AI solutions, digital platforms, and smart technology systems.
+</p>
+
+</section>
+
+
+<section class="section" id="services">
+
+<h2>Our Services</h2>
+
+<div class="services">
+
+<div class="card">
+<h3>Website Development</h3>
+<p>Premium modern websites with futuristic UI.</p>
+</div>
+
+<div class="card">
+<h3>AI Technology</h3>
+<p>Artificial intelligence tools and automation systems.</p>
+</div>
+
+<div class="card">
+<h3>Tech Education</h3>
+<p>Learn future technologies and digital innovation.</p>
+</div>
+
+</div>
+
+</section>
+
+
+<section class="section" id="register">
+
+<h2>Register With Mamifs</h2>
+
+<div class="register">
+
+<input type="text" placeholder="Full Name">
+
+<input type="email" placeholder="Email">
+
+<input type="text" placeholder="Phone">
+
+<select>
+<option>Select Service</option>
+<option>Web Development</option>
+<option>AI Technology</option>
+<option>Tech Training</option>
+</select>
+
+<textarea placeholder="Message"></textarea>
+
+<button>Submit</button>
+
+</div>
+
+</section>
+
+
+<footer id="contact">
+
+<p>© 2026 Mamifs Future Tech</p>
+<p>Innovating Tomorrow</p>
+
+</footer>
+
+</body>
+</html>
